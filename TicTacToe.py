@@ -1,3 +1,5 @@
+board=[" " for x in range(9)]
+
 def print_board():
     row1="|{}|{}|{}|".format(board[0],board[1],board[2])
     row2="|{}|{}|{}|".format(board[3],board[4],board[5])
